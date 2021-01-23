@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Swagger</name>
+    </assembly>
+    <members>
+        <member name="M:Swagger.Controllers.WeatherForecastController.Get">
+            <summary>
+            Weather Forecast Get Method
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
