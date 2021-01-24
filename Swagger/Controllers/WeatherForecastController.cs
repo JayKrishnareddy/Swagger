@@ -44,6 +44,9 @@ namespace Swagger.Controllers
         /// <summary>
         /// Post method in weather controller.
         /// </summary>
+        /// <remarks>
+        /// Here is the sample to show remarks
+        /// </remarks>
         /// <param name="Id">Pass the Id</param>
         /// <returns>Returns a Post Message</returns>
         [HttpPost]
