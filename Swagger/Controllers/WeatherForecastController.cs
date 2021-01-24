@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -26,7 +27,7 @@ namespace Swagger.Controllers
         /// <summary>
         /// Weather Forecast Get Method
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Json Data</returns>
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
@@ -38,6 +39,17 @@ namespace Swagger.Controllers
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
+        }
+
+        /// <summary>
+        /// Post method in weather controller.
+        /// </summary>
+        /// <param name="Id">Pass the Id</param>
+        /// <returns>Returns a Post Message</returns>
+        [HttpPost]
+        public IActionResult Post([Required] int Id)
+        {
+            return Ok();
         }
     }
 }

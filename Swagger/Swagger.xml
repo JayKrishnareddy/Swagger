@@ -8,7 +8,14 @@
             <summary>
             Weather Forecast Get Method
             </summary>
-            <returns></returns>
+            <returns>Json Data</returns>
+        </member>
+        <member name="M:Swagger.Controllers.WeatherForecastController.Post(System.Int32)">
+            <summary>
+            Post method in weather controller.
+            </summary>
+            <param name="Id">Pass the Id</param>
+            <returns>Returns a Post Message</returns>
         </member>
     </members>
 </doc>
