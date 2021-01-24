@@ -6,7 +6,7 @@
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <NoWarn>1701;1702;1591</NoWarn>
-    <DocumentationFile>C:\Users\mjayakri\source\repos\Swagger\Swagger\Swagger.xml</DocumentationFile>
+    <DocumentationFile>C:\Users\jaykr\source\repos\JayKrishnareddy\Swagger\Swagger\Swagger.xml</DocumentationFile>
     <WarningLevel>5</WarningLevel>
   </PropertyGroup>
 

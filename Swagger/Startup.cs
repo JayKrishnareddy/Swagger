@@ -57,11 +57,17 @@ namespace Swagger
 
             app.UseRouting();
 
+
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+            });
+            app.UseSwagger();
+            app.UseSwaggerUI(o =>
+            {
+                o.SwaggerEndpoint("/swagger/v1/swagger.json", "Swagger");
             });
         }
     }
