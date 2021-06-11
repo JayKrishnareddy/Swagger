@@ -13,4 +13,7 @@ If you want more about this, Do check out my Article 👇🏻
 [**Medium**](https://medium.com/nerd-for-tech/document-your-existing-apis-with-open-api-specification-in-asp-net-core-a4a2bf1910d8 "Medium")
 
 
+[**Hashnode**](https://jaykrishnareddy.hashnode.dev/document-your-existing-apis-with-open-api-specification-in-aspnet-core "Hashnode")
+
+
 
